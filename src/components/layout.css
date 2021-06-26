@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+.footer {
+  background: linear-gradient(183.41deg, #FFF -8.57%, #FFF 82.96%);
+  color: #000;
+  box-shadow: 10px 14px 28px rgba(0, 0, 0, 0.678), 10px 10px 10px rgba(0, 0, 0, 0.678);
+  width: 100%;
+}
+
+.attribution {
+  background: linear-gradient(183.41deg, #FFF -8.57%, #FFF 100%);
+  /* background: #2b8bee; */
+  padding: 5px;
+}
+
+.color {
+  color: maroon;
+}
+.transbox {
+ 
+  background-color: #EB5C74 ;
+  border: 1px solid #EB5C74 ;
+  opacity: 0.9;
+  
+  height: 300px;
+}
+
+.transbox1 {
+ 
+  background-color: #EB5C74 ;
+  border: 1px solid #EB5C74 ;
+  opacity: 0.9;
+  
+  height: 250px;
+}
+.background1 {
+  background: url(http://blog.hyperiondev.com/wp-content/uploads/2017/09/blog.jpg) repeat;
+  border: 1px solid #EB5C74 ;
+  width: auto;
+  height: 250px;
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header
+{
+  background: linear-gradient(183.41deg, #FFF -8.57%, #FFF 82.96%);
+  box-shadow: 10px 14px 28px #f1f1f1ad, 10px 10px 10px #f1f1f1ad;
+  position: fixed;
+}
+@font-face {
+  font-family: 'Oxygen';
+  src: local('Oxygen'), url(../fonts/Oxygen/Oxygen-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(../fonts/Montserrat/Montserrat-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat1';
+  src: local('Montserrat'), url(../fonts/Montserrat/Montserrat-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat2';
+  src: local('Montserrat'), url(../fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+.mainbutton
+{
+  box-shadow: 10px 14px 28px #d1d1d1ad, 10px 10px 10px #d1d1d1ad;
+}

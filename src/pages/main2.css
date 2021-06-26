@@ -1,0 +1,168 @@
+.transbox2 {
+ 
+    background-color: #050625;
+    border: 1px solid #050625c9;
+
+    width: 100%;
+    height: 350px;
+    color: #fff;
+  }
+
+  .background2 {
+    background: url(https://image.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg) repeat;
+    border: 1px solid #050625c9;
+    width: auto;
+    height: 350px;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container1 {
+    padding: 2px 1px;
+  }
+
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 0px;
+  height: auto; /* Should be removed. Only for demonstration */
+  font-size: 13px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 40.33%;
+  padding: 0px;
+  height: auto; /* Should be removed. Only for demonstration */
+  font-size: 13px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column3 {
+  float: left;
+
+  padding: 0px;
+  height: auto; /* Should be removed. Only for demonstration */
+  font-size: 13px;
+}
+.column2 {
+  float: left;
+  width: 60%;
+  padding: 0px;
+  height: auto; /* Should be removed. Only for demonstration */
+  font-size: 13px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.vl {
+  border-left: 6px solid #4163ff;
+  height: 200px;
+}
+.column4 {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: auto; /* Should be removed. Only for demonstration */
+  font-size: 13px;
+}
+.faq {
+	margin: 0 auto;
+	padding: 100px 0;
+	max-width: 600px;
+}
+
+
+
+.faq__question {
+	max-width: 600px;
+	margin: 30px auto;
+}
+
+.faq__toggle {
+	list-style: none;
+	font-size: 1.5em;
+	cursor: pointer;
+	transition: opacity .3s;
+}
+
+.faq__toggle:hover {
+	opacity: 0.7;
+}
+
+.faq__answer {
+	overflow: hidden;
+	color: #bbb;
+	font-size: 0.9em;
+}
+
+.faq__question[open] .faq__answer {
+	transform: translateX(0);
+}
+
+.reveal_overlay {
+	display: block;
+	height: 300%;
+	width: 100%;
+	position: absolute;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6) 15%, rgba(0,0,0,0.8) 30%, #222);
+}
+
+.faq__question[open] .reveal_overlay {
+	animation: reveal .8s ease-in-out forwards;
+}
+
+@keyframes reveal {
+	0% 		{ transform:translateY(0);  }
+	100% 	{ transform:translateY(200%);  }
+}
+
+.faq__question[open] .faq__answer {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    { opacity: 0; margin-top: -10px; }
+  100%  { opacity: 1; margin-top: 0px; }
+}
+
+.twitter {
+	position: fixed;
+	top: 24px;
+	right: 24px;
+}
+
+.twitter svg {
+	width: 24px;
+	height: 24px;
+	fill: #bbb;
+}

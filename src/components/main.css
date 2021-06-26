@@ -1,0 +1,369 @@
+.title{
+    font-family: Oxygen, serif;
+    color: #0004;
+}
+.title1{
+    font-family: Montserrat, sans-serif;
+    color: rgba(0, 0, 0, 0.267);
+}
+.modal-content  {
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important; 
+}
+.modal-content1  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important; 
+}
+.modal-content2  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 10px 10px 10px 10px !important; 
+}
+.detailsbutton{
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important; 
+
+}
+.MuiGrid-spacing-xs-3{
+    margin: -12px;
+}
+.course{
+    width: 1000px;
+    background-color: blue;
+}
+.boxcourse{
+    width : 1000px;
+}
+.MuiFab-secondary {
+    color: #fff;
+    background-color: #EB5C74;
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+
+  .grad1 {
+    height: 870px;
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(#f3f3f3, #f3f3f3);
+    padding-bottom: 60px;
+  }
+  .grad2 {
+    height: auto;
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(#f3f3f3, #f3f3f3);
+    padding-bottom: 60px;
+  }
+  .grad3 {
+    height: auto;
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(#f3f3f3, #f3f3f3);
+    padding-bottom: 60px;
+  }
+  .grad4 {
+    height: auto;
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(#f3f3f3, #f3f3f3);
+    padding-bottom: 60px;
+  }
+
+  .butn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #EB5C74;
+  
+    border-radius: 5px !important; 
+  }
+  .transbox2 {
+ 
+    background-color: #EB5C74;
+    border: 1px solid #EB5C74;
+    opacity: 0.9;
+    
+    height: 250px;
+  }
+
+  .background2 {
+    background: url(https://image.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg) repeat;
+    border: 1px solid #EB5C74;
+    width: auto;
+    height: 250px;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .new-section {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 100;
+  }
+  
+  /* Header styles */
+  
+  header {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to right, #69bcf4, #30cc8b);
+    color: #fff;
+  }
+  
+  header h1 {
+    padding-top: 100px;
+    padding-top: -webkit-calc(50vh - 113px);
+    padding-top: expression(50vh - 113px);
+    padding-top: -moz-calc(50vh - 113px);
+    padding-top: -o-calc(50vh - 113px);
+    padding-top: calc(50vh - 113px);
+    font-size: 7em;
+    font-weight: 100;
+  }
+  
+  header h2 {
+    font-size: 2em;
+  }
+  
+  header span.animated {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    background: #fff;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  header span::before,
+  header span::after {
+    position: absolute;
+    top: -23px;
+    content: "";
+    height: 30px;
+    width: 4px;
+    border-radius: 2px;
+    background: #fff;
+  }
+  
+  header span::before {
+    left: -10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    transform:         rotate(-45deg);
+  }
+  
+  header span::after {
+    right: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    transform:         rotate(45deg);
+  }
+  
+  /* Scroll animations styles */
+  
+  .scroll-animations {
+    display: flex;
+  }
+  
+  .scroll-animations div {
+    flex-grow: 1;
+    padding: 30px;
+    text-align: center;
+    opacity: 0;
+    color: #333;
+  }
+  
+  .scroll-animations div span {
+    font-size: 4em;
+    color: #5AA9E0;
+  }
+  
+  .scroll-animations div h3 {
+    font-size: 1.9em;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  /* Click animations styles */
+  
+  .click-animations {
+    margin-top: 35px;
+    padding-bottom: 20px;
+    background: #f6f8fa;
+  }
+  
+  .click-animations input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    height: 50px;
+    width: 50%;
+    font-size: 30px;
+    outline: none;
+    border: 2px solid transparent;
+    transition: 0.3s;
+  }
+  
+  .click-animations textarea {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    font-size: 30px;
+    outline: none;
+    border: 2px solid transparent;
+    resize: none;
+    transition: 0.3s;
+  }
+  
+  .click-animations input:focus,
+  .click-animations textarea:focus {
+    border-color: #30cc8b;
+  }
+  
+  .click-animations button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: #30cc8b;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .click-animations button:active {
+    transform: scale(0.95);
+  }
+  
+  .form-error {
+    border-color: #F46036 !important;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 759px) {
+    header h1 {
+      font-size: 5em;
+    }
+    
+    .new-section {
+      font-size: 3em;
+    }
+    
+    .scroll-animations {
+      display: block;
+    }
+    
+    .scroll-animations div {
+      padding: 20px 80px;
+    }
+    
+    .click-animations input,
+    .click-animations textarea,
+    .click-animations button {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 475px) {
+    .new-section {
+      font-size: 2.5em;
+    } 
+    
+    header h1 {
+      font-size: 3.2em;
+    }
+    
+    header h2,
+    .funky-animations h3 {
+      font-size: 1.5em;
+    }
+    
+  }
+  .center{
+    display: flex;  
+justify-content: center;  
+align-items: center;  
+  }
+  .column1 {
+    float: left;
+
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  
+
+ 
+  
